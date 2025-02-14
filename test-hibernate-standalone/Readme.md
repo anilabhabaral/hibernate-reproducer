@@ -1,4 +1,4 @@
-### Hibernate 2LC test application.
+### Hibernate Standalone test application.
 
 Run a MySQL DB using podman/docker:
 ```
