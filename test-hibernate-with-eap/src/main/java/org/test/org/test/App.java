@@ -2,10 +2,10 @@ package org.test.org.test;
 
 import java.util.List;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.EntityTransaction;
-import javax.persistence.Persistence;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.EntityTransaction;
+import jakarta.persistence.Persistence;
 
 
 public class App {
@@ -20,18 +20,13 @@ public class App {
 		EntityTransaction tx = em.getTransaction();
 		tx.begin();
 // .. Write the business logic
-//		Text t1 = new Text("t1");
-//		Text t2 = new Text("t2");
-//		Document d = new Document();
-//
-//		d.getTexts().put(1, t1);
-//		d.getTexts().put(2, t2);
-//
-//		List l = em.createQuery("SELECT d FROM Document d WHERE d.texts IS EMPTY").getResultList();
-//
-//		em.persist(d);
-//
-//		em.flush();
+
+//		Entityname en =new Entityname();
+//		en.setId( 1 );
+//		en.setName( "Anilabha" );
+//		em.persist( en );
+
+
 		tx.commit();
 		em.close();
 	}
