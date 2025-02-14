@@ -11,7 +11,7 @@
 
         <properties>
             <property name="hibernate.archive.autodetection" value="class, hbm"/>
-            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
             <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
             <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/company"/>
             <property name="hibernate.connection.username" value="root"/>
@@ -24,11 +24,6 @@
             <property name="hibernate.hbm2ddl.auto" value="update"/>
 
             <property name="hibernate.max_fetch_depth" value="5"/>
-
-<!--             <property name="hibernate.cache.use_second_level_cache" value="true"/> -->
-<!--            <property name="hibernate.cache.region.factory_class" value="org.hibernate.cache.ehcache.EhCacheRegionFactory"/>-->
-<!--             <property name="hibernate.cache.region.factory_class" value="infinispan"/>
-            <property name="hibernate.cache.use_query_cache" value="true"/> -->
 
 
         </properties>
