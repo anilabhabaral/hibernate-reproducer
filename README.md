@@ -1,1 +1,1 @@
-# hibernate-reproducer
+# Hibernate issue Reproducer applications
