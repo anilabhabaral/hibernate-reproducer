@@ -35,9 +35,9 @@ class MainTest {
 
 		// Do stuff...
 
-		Student student=new Student();
-		student.setName( "Anilabha" );
-		entityManager.persist( student );
+		// Student student=new Student();
+		// student.setName( "Anilabha" );
+		// entityManager.persist( student );
 
 		entityManager.getTransaction().commit();
 		entityManager.close();
