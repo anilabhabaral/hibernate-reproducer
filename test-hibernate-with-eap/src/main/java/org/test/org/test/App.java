@@ -19,7 +19,7 @@ public class App {
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction tx = em.getTransaction();
 		tx.begin();
-// .. Write the business logic
+		// Do stuff...
 
 //		Entityname en =new Entityname();
 //		en.setId( 1 );
