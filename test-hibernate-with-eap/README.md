@@ -2,12 +2,12 @@
 
 - Maven & Java version:
 ```
-$ mvn -v           
+$ mvn -v
 Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)
 Maven home: /Users/abaral/Documents/apache-maven-3.9.6
-Java version: 11.0.24, vendor: Eclipse Adoptium, runtime: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home
+Java version: 17.0.12, vendor: Oracle Corporation, runtime: /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
 Default locale: en_IN, platform encoding: UTF-8
-OS name: "mac os x", version: "15.1.1", arch: "aarch64", family: "mac"
+OS name: "mac os x", version: "15.3", arch: "aarch64", family: "mac"
 ```
 - Build the application:
 ```
