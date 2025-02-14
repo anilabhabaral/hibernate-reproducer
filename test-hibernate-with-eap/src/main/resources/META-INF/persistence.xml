@@ -3,30 +3,13 @@
              xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
              version="3.0">
 
-    <persistence-unit name="testPU" transaction-type="RESOURCE_LOCAL">
+    <persistence-unit name="testPU" >
+        <jta-data-source>java:jboss/datasources/ExampleDS</jta-data-source>
 
-        <provider>org.hibernate.ejb.HibernatePersistence</provider>
-        <class>org.test.org.test.Text</class>
-        <class>org.test.org.test.Document</class>
-
-        <exclude-unlisted-classes>false</exclude-unlisted-classes>
-
+        <class>org.test.org.test.Entityname</class>
         <properties>
-            <property name="hibernate.archive.autodetection" value="class, hbm"/>
-
-
-            <property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:test"/>
-            <property name="javax.persistence.jdbc.user" value="app"/>
-            <property name="javax.persistence.jdbc.password" value="app"/>
-            <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
             <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
             <property name="hibernate.show_sql" value="true"/>
-            <property name="hibernate.format_sql" value="true"/>
-<!--            Load the hibernate-core from application-->
-<!--             <property name="jboss.as.jpa.providerModule" value="application" />-->
-            
-
-
         </properties>
 
     </persistence-unit>
