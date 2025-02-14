@@ -10,8 +10,8 @@ import javax.persistence.Id;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
-@Cacheable
-@Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
+// @Cacheable
+// @Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
 @Entity(name = "Student")
 public class Student {
 
