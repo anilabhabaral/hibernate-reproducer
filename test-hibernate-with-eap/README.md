@@ -1,4 +1,4 @@
-### Hibernate test app
+### Hibernate test application(war) to deploy on top of EAP 8.x.
 
 - Maven & Java version:
 ```
