@@ -10,13 +10,14 @@
     <dependencyManagement>
         <dependencies>
 
-      <dependency>
-          <groupId>org.jboss.bom</groupId>
-          <artifactId>eap-runtime-artifacts</artifactId>
-          <version>7.4.0.GA</version>
-          <type>pom</type>
-          <scope>import</scope>
-      </dependency>
+<dependency>
+ <groupId>org.jboss.bom</groupId>
+  <artifactId>jboss-eap-ee-with-tools</artifactId>
+  <version>8.0.0.GA-redhat-00009</version>
+  <type>pom</type>
+  <scope>import</scope>
+</dependency>
+      
       </dependencies>
 
     </dependencyManagement>
@@ -31,25 +32,19 @@
 
 
       <dependency>
-          <groupId>javax.servlet</groupId>
-          <artifactId>javax.servlet-api</artifactId>
-          <version>4.0.0</version>
+          <groupId>jakarta.servlet</groupId>
+          <artifactId>jakarta.servlet-api</artifactId>
           <scope>provided</scope>
       </dependency>
 
 
 
       <dependency>
-          <groupId>org.hibernate</groupId>
+          <groupId>org.hibernate.orm</groupId>
           <artifactId>hibernate-core</artifactId>
           <scope>provided</scope>
       </dependency>
 
-      <dependency>
-          <groupId>com.h2database</groupId>
-          <artifactId>h2</artifactId>
-          <version>1.4.178</version>
-      </dependency>
   </dependencies>
   <build>
     <finalName>apph1</finalName>
