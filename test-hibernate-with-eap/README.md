@@ -11,7 +11,7 @@ OS name: "mac os x", version: "15.3", arch: "aarch64", family: "mac"
 ```
 - Build the application:
 ```
-$ cd apph
+$ cd test-hibernate-with-eap
 
 $ mvn clean install
 ```
