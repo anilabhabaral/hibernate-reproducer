@@ -13,7 +13,7 @@ OS name: "mac os x", version: "15.3", arch: "aarch64", family: "mac"
 ```
 $ cd test-hibernate-with-eap
 
-$ mvn clean install
+$ mvn clean install -s ../settings.xml
 ```
 - Start the JBoss EAP 
 ```
