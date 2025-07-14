@@ -11,9 +11,9 @@ OS name: "mac os x", version: "15.3", arch: "aarch64", family: "mac"
 ```
 - Build the application:
 ```
-$ cd test-hibernate-with-eap
+cd test-hibernate-with-eap
 
-$ mvn clean install -s ../settings.xml
+mvn clean install -s ../settings.xml
 ```
 - Start the JBoss EAP 
 ```
